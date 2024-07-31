@@ -71,7 +71,7 @@ export const RESUME_DATA = {
       organization: "Google Developer Student Club Munich",
       label: "Core Team Member",
       start: "2022",
-      end: "",
+      end: null,
       description: "Organized events and workshops, enhancing technical and communication skills",
       href: "https://gdsc.community.dev/technical-university-of-munich-munich-germany/"
     },
@@ -79,7 +79,7 @@ export const RESUME_DATA = {
       organization: "JetBrains",
       label: "Campus Ambassador",
       start: "2023",
-      end: "",
+      end: null,
       description: "Led the planning and execution of events and workshops, fostering community engagement and developing strong organizational, technical, and communication skills",
       href: "https://www.jetbrains.com/education/university-relations/"
     },
@@ -87,7 +87,7 @@ export const RESUME_DATA = {
       organization: "StartMunich",
       label: "Member",
       start: "2021",
-      end: "",
+      end: null,
       description: "Participated in multiple events to help build the StartUP community in munich",
       href: "https://www.startmunich.de/"
     }
