@@ -160,6 +160,37 @@ export default function Page() {
             );
           })}
         </Section>
+
+        <Section>
+          <h2 className="text-xl font-bold">Leadership</h2>
+          {RESUME_DATA.leadership.map((work) => {
+            return (
+              <Card key={work.organization}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                      <a className="hover:underline" href={work.href}>
+                        {work.organization}
+                      </a>
+
+                    </h3>
+                    <div className="text-sm tabular-nums text-gray-500">
+                      {work.start} - {work.end ?? "Present"}
+                    </div>
+                  </div>
+
+                  <h4 className="font-mono text-sm leading-none print:text-[12px]">
+                    {work.label}
+                  </h4>
+                </CardHeader>
+                <CardContent className="mt-2 text-xs print:text-[10px]">
+                  {work.description}
+                </CardContent>
+              </Card>
+            );
+          })}
+        </Section>
+
         <Section>
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">

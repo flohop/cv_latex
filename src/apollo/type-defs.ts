@@ -70,6 +70,28 @@ export class Link {
 }
 
 @ObjectType()
+export class Leadership {
+
+  @Field(() => String)
+  organization: string
+
+  @Field(() => String)
+  label: string
+
+  @Field(() => String)
+  start: string;
+
+  @Field(() => String)
+  end: string;
+
+  @Field(() => String)
+  description: string;
+
+  @Field(() => String)
+  href: string;
+}
+
+@ObjectType()
 export class Project {
   @Field(() => String)
   title: string;
@@ -115,6 +137,9 @@ export class Me {
 
   @Field(() => [Education])
   education: Education[];
+
+  @Field(() => [Leadership])
+  leadership: Leadership[];
 
   @Field(() => [Work])
   work: Work[];
