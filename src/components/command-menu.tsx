@@ -58,7 +58,7 @@ export const CommandMenu = ({ links }: Props) => {
             <CommandItem
               onSelect={() => {
                 setOpen(false);
-                window.print();
+                window.open("cv.pdf", "_blank")
               }}
             >
               <span>Print</span>
