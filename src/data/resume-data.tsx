@@ -142,7 +142,7 @@ export const RESUME_DATA = {
       logo: ParabolLogo,
       link: {
         label: "github.com",
-        href: "https://parabol.co/",
+        href: "https://github.com/flohop/holiday-challenge",
       },
     },
     {
