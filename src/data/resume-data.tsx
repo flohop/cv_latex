@@ -55,7 +55,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Technical University of Munich (TUM)",
-      degree: "Pursuing a Masters Degree in Computer Science",
+      degree: "Pursuing a Master's Degree in Computer Science",
       start: "20024",
       end: "2026",
     },
@@ -96,12 +96,12 @@ export const RESUME_DATA = {
     {
       company: "JetBrains",
       link: "https://www.jetbrains.com/",
-      badges: ["Kotlin", "Fleet"],
-      title: "Software Engineering (Intern)",
+      badges: ["Kotlin", "JVM"],
+      title: "Software Engineer on Fleet Core Platform Team (Intern)",
       logo: ConsultlyLogo,
       start: "2024",
       end: null,
-      description: "Implemented high-performance data structures in Kotlin Multiplatform, optimizing memory usage and runtime efficiency\n Adapted core Fleet Window Manager features to a new platform, delivering a robust API for other developers.",
+      description: "Implemented high-performance data structures in Kotlin Multiplatform, optimizing memory usage and runtime efficiency. Adapted core Fleet Window Manager features to a new platform, delivering a robust API for other developers.",
     },
     {
       company: "Kertos",
@@ -114,7 +114,7 @@ export const RESUME_DATA = {
       description:
         "Designed and developed a highly efficient microservice in Python for automating the deletion of user data on" +
         "third-party platforms, serving over 10,000 requests to date. \n" +
-        "Contributed to the successful migration of the REST API to GraphQL, enhancing type safety and delivering noteworthy 25% improvement in read speed through the reduction of over-fetching."
+        "Contributed to the successful migration of the REST API to GraphQL, enhancing type safety and delivering a 25% improvement in read speed through the reduction of over-fetching."
     },
   ],
   skills: [
