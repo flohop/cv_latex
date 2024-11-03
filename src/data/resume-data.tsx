@@ -56,7 +56,7 @@ export const RESUME_DATA = {
     {
       school: "Technical University of Munich (TUM)",
       degree: "Pursuing a Master's Degree in Computer Science",
-      start: "20024",
+      start: "2024",
       end: "2026",
     },
     {
