@@ -94,13 +94,25 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Palantir",
+      link: "https://www.palantir.com/",
+      badges: ["Upcoming"],
+      title: "Software Engineer Intern",
+      logo: ConsultlyLogo,
+      start: "May 2025",
+      location: "London",
+      end: "Aug 2025",
+      description: "Over the summer, I will be joining Palantir as a SWE intern",
+    },
+    {
       company: "JetBrains",
       link: "https://www.jetbrains.com/",
       badges: ["Kotlin", "JVM"],
       title: "Software Engineer on Fleet Core Platform Team (Intern)",
+      location: "Munich",
       logo: ConsultlyLogo,
-      start: "2024",
-      end: null,
+      start: "Mar 2024",
+      end: "Mar 2025",
       description: "Implemented high-performance data structures in Kotlin Multiplatform, optimizing memory usage and runtime efficiency. Adapted core Fleet Window Manager features to a new platform, delivering a robust API for other developers.",
     },
     {
@@ -109,8 +121,9 @@ export const RESUME_DATA = {
       badges: ["Python", "Backend", "Automation"],
       title: "Full Stack Developer (Working Student)",
       logo: ParabolLogo,
-      start: "2022",
-      end: "2024",
+      location: "Munich",
+      start: "Jan 2022",
+      end: "Dec 2024",
       description:
         "Designed and developed a highly efficient microservice in Python for automating the deletion of user data on" +
         "third-party platforms, serving over 10,000 requests to date. \n" +

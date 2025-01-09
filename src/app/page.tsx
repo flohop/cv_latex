@@ -110,6 +110,26 @@ export default function Page() {
                         {work.company}
                       </a>
 
+                      {/* Location with GPS icon */}
+      <span className="inline-flex items-center gap-x-1 text-gray-500 text-sm">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-4 w-4"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+            />
+            <path d="M12 2C8.134 2 5 5.134 5 9c0 4.94 7 13 7 13s7-8.06 7-13c0-3.866-3.134-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z" />
+
+          </svg>
+        {work.location}
+        </span>
+
                       <span className="inline-flex gap-x-1">
                         {work.badges.map((badge) => (
                           <Badge
