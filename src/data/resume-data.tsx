@@ -96,13 +96,13 @@ export const RESUME_DATA = {
     {
       company: "Palantir",
       link: "https://www.palantir.com/",
-      badges: ["Upcoming"],
+      badges: ["Java", "GraphQL", "React"],
       title: "Software Engineer Intern",
       logo: ConsultlyLogo,
       start: "May 2025",
       location: "London",
       end: "Aug 2025",
-      description: "Over the summer, I will be joining Palantir as a SWE intern",
+      description: "Developed end-to-end search and indexing functionality for Custom Widgets. This included indexing the metadata in ElasticSearch, creating a search endpoint in REST, a query in GraphQL and integrating the feature in the frontend.",
     },
     {
       company: "JetBrains",
