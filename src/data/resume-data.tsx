@@ -94,6 +94,17 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "University of Cambridge",
+      link: "https://www.cam.ac.uk/",
+      badges: ["LLMs", "AI", "Python"],
+      title: "Visiting Researcher",
+      logo: ConsultlyLogo,
+      start: "Oct 2025",
+      location: "Cambridge",
+      end: "Mar 2026",
+      description: "Conducting Master’s thesis research on mechanistic exploration of truth in LLMs under the guidance of Prof. Robert Mullins and David Khachaturov",
+    },
+    {
       company: "Palantir",
       link: "https://www.palantir.com/",
       badges: ["Java", "GraphQL", "React"],
